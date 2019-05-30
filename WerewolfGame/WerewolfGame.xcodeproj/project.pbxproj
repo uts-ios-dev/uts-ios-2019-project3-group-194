@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222B763422903E780089D8E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B763322903E780089D8E4 /* AppDelegate.swift */; };
+		222B763622903E780089D8E4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B763522903E780089D8E4 /* HomeViewController.swift */; };
+		222B763922903E780089D8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222B763722903E780089D8E4 /* Main.storyboard */; };
+		222B763E22903E7D0089D8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222B763C22903E7D0089D8E4 /* LaunchScreen.storyboard */; };
+		222B764922903E7E0089D8E4 /* WerewolfGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B764822903E7E0089D8E4 /* WerewolfGameTests.swift */; };
+		222B765422903E7E0089D8E4 /* WerewolfGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B765322903E7E0089D8E4 /* WerewolfGameUITests.swift */; };
+		222B766422951DF90089D8E4 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B766322951DF90089D8E4 /* CardViewController.swift */; };
+		222B76682297C14C0089D8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222B76672297C14C0089D8E4 /* Assets.xcassets */; };
+		A16C1C50229B8FE7006A1AD5 /* SetupGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C1C4F229B8FE7006A1AD5 /* SetupGameViewController.swift */; };
+		A16C1C52229B9115006A1AD5 /* SetupGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C1C4F229B8FE7006A1AD5 /* SetupGameViewController.swift */; };
+		A16C1C53229B9115006A1AD5 /* SetupGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C1C4F229B8FE7006A1AD5 /* SetupGameViewController.swift */; };
+		A16C1C59229B9A48006A1AD5 /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16C1C58229B9A48006A1AD5 /* SelfieViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		222B764522903E7E0089D8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222B762822903E780089D8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222B762F22903E780089D8E4;
+			remoteInfo = WerewolfGame;
+		};
+		222B765022903E7E0089D8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222B762822903E780089D8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222B762F22903E780089D8E4;
+			remoteInfo = WerewolfGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		222B763022903E780089D8E4 /* WerewolfGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WerewolfGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222B763322903E780089D8E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		222B763522903E780089D8E4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		222B763822903E780089D8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		222B763D22903E7D0089D8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		222B763F22903E7D0089D8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222B764422903E7E0089D8E4 /* WerewolfGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WerewolfGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222B764822903E7E0089D8E4 /* WerewolfGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WerewolfGameTests.swift; sourceTree = "<group>"; };
+		222B764A22903E7E0089D8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222B764F22903E7E0089D8E4 /* WerewolfGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WerewolfGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222B765322903E7E0089D8E4 /* WerewolfGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WerewolfGameUITests.swift; sourceTree = "<group>"; };
+		222B765522903E7E0089D8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222B766322951DF90089D8E4 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		222B76672297C14C0089D8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A16C1C4F229B8FE7006A1AD5 /* SetupGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupGameViewController.swift; sourceTree = "<group>"; };
+		A16C1C58229B9A48006A1AD5 /* SelfieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222B762D22903E780089D8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222B764122903E7E0089D8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222B764C22903E7E0089D8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222B762722903E780089D8E4 = {
+			isa = PBXGroup;
+			children = (
+				222B763222903E780089D8E4 /* WerewolfGame */,
+				222B764722903E7E0089D8E4 /* WerewolfGameTests */,
+				222B765222903E7E0089D8E4 /* WerewolfGameUITests */,
+				222B763122903E780089D8E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222B763122903E780089D8E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222B763022903E780089D8E4 /* WerewolfGame.app */,
+				222B764422903E7E0089D8E4 /* WerewolfGameTests.xctest */,
+				222B764F22903E7E0089D8E4 /* WerewolfGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222B763222903E780089D8E4 /* WerewolfGame */ = {
+			isa = PBXGroup;
+			children = (
+				222B763322903E780089D8E4 /* AppDelegate.swift */,
+				222B763522903E780089D8E4 /* HomeViewController.swift */,
+				222B763722903E780089D8E4 /* Main.storyboard */,
+				A16C1C58229B9A48006A1AD5 /* SelfieViewController.swift */,
+				222B766322951DF90089D8E4 /* CardViewController.swift */,
+				A16C1C4F229B8FE7006A1AD5 /* SetupGameViewController.swift */,
+				222B763C22903E7D0089D8E4 /* LaunchScreen.storyboard */,
+				222B763F22903E7D0089D8E4 /* Info.plist */,
+				222B76672297C14C0089D8E4 /* Assets.xcassets */,
+			);
+			path = WerewolfGame;
+			sourceTree = "<group>";
+		};
+		222B764722903E7E0089D8E4 /* WerewolfGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				222B764822903E7E0089D8E4 /* WerewolfGameTests.swift */,
+				222B764A22903E7E0089D8E4 /* Info.plist */,
+			);
+			path = WerewolfGameTests;
+			sourceTree = "<group>";
+		};
+		222B765222903E7E0089D8E4 /* WerewolfGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				222B765322903E7E0089D8E4 /* WerewolfGameUITests.swift */,
+				222B765522903E7E0089D8E4 /* Info.plist */,
+			);
+			path = WerewolfGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222B762F22903E780089D8E4 /* WerewolfGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222B765822903E7E0089D8E4 /* Build configuration list for PBXNativeTarget "WerewolfGame" */;
+			buildPhases = (
+				222B762C22903E780089D8E4 /* Sources */,
+				222B762D22903E780089D8E4 /* Frameworks */,
+				222B762E22903E780089D8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WerewolfGame;
+			productName = WerewolfGame;
+			productReference = 222B763022903E780089D8E4 /* WerewolfGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		222B764322903E7E0089D8E4 /* WerewolfGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222B765B22903E7E0089D8E4 /* Build configuration list for PBXNativeTarget "WerewolfGameTests" */;
+			buildPhases = (
+				222B764022903E7E0089D8E4 /* Sources */,
+				222B764122903E7E0089D8E4 /* Frameworks */,
+				222B764222903E7E0089D8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222B764622903E7E0089D8E4 /* PBXTargetDependency */,
+			);
+			name = WerewolfGameTests;
+			productName = WerewolfGameTests;
+			productReference = 222B764422903E7E0089D8E4 /* WerewolfGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		222B764E22903E7E0089D8E4 /* WerewolfGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222B765E22903E7E0089D8E4 /* Build configuration list for PBXNativeTarget "WerewolfGameUITests" */;
+			buildPhases = (
+				222B764B22903E7E0089D8E4 /* Sources */,
+				222B764C22903E7E0089D8E4 /* Frameworks */,
+				222B764D22903E7E0089D8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222B765122903E7E0089D8E4 /* PBXTargetDependency */,
+			);
+			name = WerewolfGameUITests;
+			productName = WerewolfGameUITests;
+			productReference = 222B764F22903E7E0089D8E4 /* WerewolfGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222B762822903E780089D8E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = King;
+				TargetAttributes = {
+					222B762F22903E780089D8E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					222B764322903E7E0089D8E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 222B762F22903E780089D8E4;
+					};
+					222B764E22903E7E0089D8E4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 222B762F22903E780089D8E4;
+					};
+				};
+			};
+			buildConfigurationList = 222B762B22903E780089D8E4 /* Build configuration list for PBXProject "WerewolfGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222B762722903E780089D8E4;
+			productRefGroup = 222B763122903E780089D8E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222B762F22903E780089D8E4 /* WerewolfGame */,
+				222B764322903E7E0089D8E4 /* WerewolfGameTests */,
+				222B764E22903E7E0089D8E4 /* WerewolfGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222B762E22903E780089D8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222B763E22903E7D0089D8E4 /* LaunchScreen.storyboard in Resources */,
+				222B76682297C14C0089D8E4 /* Assets.xcassets in Resources */,
+				222B763922903E780089D8E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222B764222903E7E0089D8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222B764D22903E7E0089D8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222B762C22903E780089D8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16C1C59229B9A48006A1AD5 /* SelfieViewController.swift in Sources */,
+				222B763622903E780089D8E4 /* HomeViewController.swift in Sources */,
+				222B763422903E780089D8E4 /* AppDelegate.swift in Sources */,
+				A16C1C50229B8FE7006A1AD5 /* SetupGameViewController.swift in Sources */,
+				222B766422951DF90089D8E4 /* CardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222B764022903E7E0089D8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16C1C52229B9115006A1AD5 /* SetupGameViewController.swift in Sources */,
+				222B764922903E7E0089D8E4 /* WerewolfGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222B764B22903E7E0089D8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A16C1C53229B9115006A1AD5 /* SetupGameViewController.swift in Sources */,
+				222B765422903E7E0089D8E4 /* WerewolfGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		222B764622903E7E0089D8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222B762F22903E780089D8E4 /* WerewolfGame */;
+			targetProxy = 222B764522903E7E0089D8E4 /* PBXContainerItemProxy */;
+		};
+		222B765122903E7E0089D8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222B762F22903E780089D8E4 /* WerewolfGame */;
+			targetProxy = 222B765022903E7E0089D8E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		222B763722903E780089D8E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222B763822903E780089D8E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		222B763C22903E7D0089D8E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222B763D22903E7D0089D8E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		222B765622903E7E0089D8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		222B765722903E7E0089D8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222B765922903E7E0089D8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YRK4T4J793;
+				INFOPLIST_FILE = WerewolfGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ldentifier.WerewolfGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		222B765A22903E7E0089D8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YRK4T4J793;
+				INFOPLIST_FILE = WerewolfGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ldentifier.WerewolfGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		222B765C22903E7E0089D8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBC7QWCEU3;
+				INFOPLIST_FILE = WerewolfGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ldentifier.WerewolfGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WerewolfGame.app/WerewolfGame";
+			};
+			name = Debug;
+		};
+		222B765D22903E7E0089D8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBC7QWCEU3;
+				INFOPLIST_FILE = WerewolfGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ldentifier.WerewolfGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WerewolfGame.app/WerewolfGame";
+			};
+			name = Release;
+		};
+		222B765F22903E7E0089D8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBC7QWCEU3;
+				INFOPLIST_FILE = WerewolfGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ldentifier.WerewolfGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WerewolfGame;
+			};
+			name = Debug;
+		};
+		222B766022903E7E0089D8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBC7QWCEU3;
+				INFOPLIST_FILE = WerewolfGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ldentifier.WerewolfGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WerewolfGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222B762B22903E780089D8E4 /* Build configuration list for PBXProject "WerewolfGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222B765622903E7E0089D8E4 /* Debug */,
+				222B765722903E7E0089D8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222B765822903E7E0089D8E4 /* Build configuration list for PBXNativeTarget "WerewolfGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222B765922903E7E0089D8E4 /* Debug */,
+				222B765A22903E7E0089D8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222B765B22903E7E0089D8E4 /* Build configuration list for PBXNativeTarget "WerewolfGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222B765C22903E7E0089D8E4 /* Debug */,
+				222B765D22903E7E0089D8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222B765E22903E7E0089D8E4 /* Build configuration list for PBXNativeTarget "WerewolfGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222B765F22903E7E0089D8E4 /* Debug */,
+				222B766022903E7E0089D8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222B762822903E780089D8E4 /* Project object */;
+}
